@@ -1,0 +1,20 @@
+{
+  "name": "livelink_events",
+  "version": "1.0.0",
+  "description": "cps3962_team-project",
+  "homepage": "https://github.com/Bubbulez/CPS3962_Team5_LinkEvents#readme",
+  "bugs": {
+    "url": "https://github.com/Bubbulez/CPS3962_Team5_LinkEvents/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubbulez/CPS3962_Team5_LinkEvents.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
