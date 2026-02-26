@@ -39,11 +39,13 @@
         - First, import it at the top of your page:
             - import { BigButton } from "./globalComponents/BigButton";
         - Then to use it throughout the page, copy/paste and edit the example component:
-            <BigButton
-                /* What you want the button to say */
-                content={"View All Events"}
+                ```
+                <BigButton
+                    /* What you want the button to say */
+                    content={"View All Events"}
 
-                /* Where you want the button to go */
-                /* Forward slash + name of the folder containing the page.tsx file */
-                link={"/events"} 
-            />
+                    /* Where you want the button to go */
+                    /* Forward slash + name of the folder containing the page.tsx file */
+                    link={"/events"} 
+                />
+                ```
