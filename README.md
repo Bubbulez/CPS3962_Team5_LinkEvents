@@ -48,5 +48,5 @@
     /* Where you want the button to go */
     /* Forward slash + name of the folder containing the page.tsx file */
     link={"/events"} 
-    />
+/>
 ```
