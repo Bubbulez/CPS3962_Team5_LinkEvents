@@ -1,3 +1,4 @@
+"use client";
 //import Head from "next/head"; //problem is causing 404 error!
 import { BigButton } from "./globalComponents/BigButton";
 //import "../styles/main.css";
