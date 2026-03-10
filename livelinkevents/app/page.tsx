@@ -1,13 +1,16 @@
-import Head from "next/head";
+//import Head from "next/head"; //problem is causing 404 error!
 import { BigButton } from "./globalComponents/BigButton";
 import "../styles/main.css";
 
 export default function Home() {
   return (
     <>
+   {/*
       <Head>
         <link rel="stylesheet" href="../styles/main.css" />
-      </Head>
+      </Head> 
+      */}
+    
       <div>
         
         <main>
