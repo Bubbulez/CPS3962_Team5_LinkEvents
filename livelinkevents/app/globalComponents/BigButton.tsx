@@ -1,7 +1,7 @@
-export function BigButton({ content, link }: { content: string, link:string }) {
-    return (
-        <div className="bigButton">
-            <p><a href={link}>{content}</a></p>
-        </div>
-    );
+export function BigButton(props: { content: string; link: string }) {
+  return (
+    <a href={props.link}>
+      <button>{props.content}</button>
+    </a>
+  );
 }
